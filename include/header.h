@@ -19,10 +19,4 @@ typedef struct {
     char **write;
 } parsing_t;
 
-typedef struct {
-    char *rooms;
-    char *start;
-    char *end;
-} pathfinding_utils_t;
-
 #endif /* HEADER_H */

@@ -56,7 +56,6 @@ SRC_BASE =	$(SRC) \
                 src/parsing/input/save/save_tunnels.c \
                 src/parsing/input/verif_input.c \
                 src/parsing/input/read_input.c \
-                src/pathfinding/pathfinding.c \
                 src/structure/structure.c \
                 src/amazed.c \
                 src/main.c

@@ -87,6 +87,6 @@ int save_rooms(parsing_t *input, int i);
 int save_start(parsing_t *input);
 int save_end(parsing_t *input);
 int save_tunnels(parsing_t *input);
-int pathfinding_init(parsing_t *input, pathfinding_utils_t *pathfinding);
+void pathfinding(parsing_t *input);
 
 #endif

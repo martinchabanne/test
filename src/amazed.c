@@ -10,7 +10,6 @@
 int amazed(void)
 {
     parsing_t *input = create_input();
-    pathfinding_utils_t *pathfinding_t = malloc(sizeof(pathfinding_utils_t));
 
     if (read_input(input) == 84)
         return 84;
@@ -26,5 +25,4 @@ int amazed(void)
     input->nbr_robots, input->rooms);
     my_printf("##start\n%s##end\n%s#tunnels\n%s",
     input->start, input->end, input->tunnels);
-    pathfinding_init(input, pathfinding_t);
 }
