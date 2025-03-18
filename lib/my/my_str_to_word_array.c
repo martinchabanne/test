@@ -5,7 +5,6 @@
 ** my_str_to_word_array
 */
 
-#include <ncurses.h>
 #include <stdlib.h>
 #include "my.h"
 
